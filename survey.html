@@ -1,0 +1,75 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Coda' rel='stylesheet' type='text/css'>
+		<title>Test Website</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<!-- Header-->
+			<div id="header">
+				<h1>Dhruv's Website</h1>
+				<ul id="navi">
+					<li> <a href="index.html">Home</a></li>
+					<li> <a href="survey.html">Survey</a> </li>
+					<li> <a href="leave.html">Get off my page</a></li>
+					<li> <a href="survey_data.php">Survey Data</a></li>
+				</ul>
+			</div>
+		
+			<!--Middle-->
+			<div id="middle">
+				<div id="content">
+					<h2>Take My Survey</h2>
+					<p>Please take a second to fill out my survey.</p>
+					
+					<form action='scripts/submit_survey.php' method='GET'> 
+						<table id="form_table">
+							<tr>
+								<td> <label>First Name:</label></td>
+								<td> <input type="text" name="first"></input> </td>
+								
+							</tr>
+							<tr>
+								<td> <label>Last Name:</label></td>
+								<td> <input type="text" name="last"></input></td>
+								
+							</tr>
+							<tr>
+								<td> <label>Email Address:</label></td>
+								<td><input type="text" name="email"></input> </td>
+								
+							</tr>
+							<tr>
+								<td> <label>Age:</label></td>
+								<td><input type="number" name="age"></input> </td>
+								
+							</tr>
+							<tr>
+								<td> <label>Sex:</label></td>
+								<td> <input type="radio" name="male">Male</input> <br> 
+								<input type="radio" name="male">Female</input> </td>
+								
+							</tr>
+							
+							<tr>
+								<td> <label>Comments:</label></td>
+								<td><textarea name="comments"> </textarea></td>
+								
+							</tr>
+							<tr>
+								<td> </td>
+								<td><input type="submit" name="submit" value="Submit Survey"></input> </td>
+								
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--Footer-->
+		<div id="footer">
+			<p>Created by Dhruv Patel<p>
+		</div>
+	</body>
+</html>

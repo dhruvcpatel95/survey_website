@@ -1,0 +1,203 @@
+*
+{
+	padding:0;
+	margin: 0;
+}
+html, body
+{
+	height:100%;
+}
+
+#wrapper 
+{
+	min-height:100%;
+}
+
+#header
+{
+	background:#e9ffa6;
+	height: 125px;
+	padding:20px;
+	box-shadow: 1px 1px 20px #888888;
+	
+}
+
+#middle
+{
+	overflow:auto;
+	padding:30px;
+	padding-bottom:70px;
+}	
+	
+#footer
+{
+	background:#e9ffa6;
+	position:relative;
+	clear:both;
+	margin-top:-70px;
+	height: 50px;
+	padding: 10px;
+	text-align:center;
+}
+
+/*#footer
+{
+	background:#e9ffa6;
+	height: 30px;
+	position:fixed;
+	clear:both;
+	bottom:0;
+	left:0;
+	right:0;
+	padding: 10px;
+	text-align:center;
+}
+*/
+
+h1
+{
+	text-align:center;
+	font-size:70px;
+	color: maroon;
+	text-shadow: 1px 1px 2px blue;
+	font-family:'coda', serif;
+}
+
+#navi 
+{
+	text-align:center;
+}
+#navi li
+{
+	display:inline-block;
+	padding:10px;
+	font-size:20px;
+}
+#navi li a
+{
+	text-decoration:none;
+	color:blue;
+}
+#navi li a:hover
+{
+	color:red;
+}
+
+h2
+{
+	font-family:verdana;
+	font-size:45px;
+	color:blue;
+	text-shadow: 1px 1px 3px orange;
+	text-align:center;
+}
+
+h2,h3,h4,h5,h6,p
+{
+	padding:10px;
+}
+
+p
+{
+	font-size:22px;
+	font-family:'times new roman';
+
+
+}
+
+h3
+{
+
+}
+
+#gir
+{
+	height:300px;
+	width:600px;
+	display:block;
+	margin:auto;
+	box-shadow: 5px 5px 15px #888888;
+	border-radius:200px;
+}
+
+#content
+{
+	width:80%;
+	margin:auto;
+	
+}
+
+td, th
+{
+	padding:10px;
+	font-size:24px;
+	border:1px solid;
+
+}
+
+table
+{
+	border:1px solid;
+	border-collapse:collapse;
+}
+
+#form_table, #form_table td
+{
+	margin:auto;
+	border:none;
+}
+
+input[type="text"]
+{
+	width:300px;
+	height:40px;
+	font-size:24;
+	padding:10px;
+
+}
+
+input[type="text"]:focus, textarea:focus
+{
+	outline:none;		
+	border:1px solid blue;
+	background-color:#ffffcc;
+}
+
+label
+{
+	width:100%;
+	display:inline-block;
+	text-align:right;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+input[type="submit"]
+{
+	height:40px;
+	width:150px;
+	display:inline-block;
+	margin:auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#2dc43a),
+            color-stop(90%,#39ed48));
+			border-radius:10px;
+	color:white;
+	font-size:16px;
+	border:none;
+	box-shadow:1px 1px 10px black;
+}
+input[type="submit"]:hover
+{
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(10%,#39ed48),
+            color-stop(90%,#2dc43a));
+		cursor:pointer;
+}
+
+textarea
+{
+	resize:none;
+	width: 300px;	
+	height:100px;
+	font-size:16;
+	padding:10px;
+}
