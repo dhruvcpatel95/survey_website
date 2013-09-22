@@ -1,4 +1,4 @@
 survey_website
 ==============
 
-This is a survey site.
+This is a test survey site that I build to learn php and sql.
